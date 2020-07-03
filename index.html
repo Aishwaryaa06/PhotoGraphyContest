@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="pstyle.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+			<ul class="navlink">
+				<li><a href="#" class="active">Home</a></li>
+				<li><a href="#">Gallery</a></li>
+				<li><a href="#">Terms</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<section class="matter">
+			<div class="content">
+			<h3>Photography contest-2020</h3>
+			<a class="ctn" href="#"><button>Know More</button>
+            </div>
+    </section>
+
+    <section>
+    	<div class="mat">
+    		<h3>About Us</h3>
+    	</div>
+    	<div id="box1">
+    	<div class="conte">
+    		<p>We offer numerous functions to evaluate and monitor your competition. This includes the possibility to export the collected information as CSV or Excel.
+    			Beside the photo contest you can also create a simple image voting here. This type focuses on the opinions of your participants. In a tabular view you and your participants can see the distribution of votes - ideal for prioritizing graphics or finding the most popular logo.
+                Compared to the photo competition, only a small number of photos can be included.</p>
+                <br>
+                <h3>Deadline :<mark> 25/06/2020</mark></h3><br>
+                <h4>Theme:&nbsp; Wildlife | Traditional | Travel | Food</h4><br>
+                <h4>Eligibility :&nbsp; Open to All</h4><br>
+                <h4>Entry Fees :&nbsp; 300</h4><br>
+                <h4>Prizes :&nbsp; Cash Price + Vouchers</h4>
+                <br>
+     	</div>
+    </div>
+    <form action="/action_page.php">
+  <div class="container">
+    <h1>Register</h1><br>
+    <p>Please fill in this form to create an account.</p>
+    <br>
+    <hr>
+
+    <label for="email"><b>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+    <label for="psw"><b>Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
+     
+     <form action="upload.php" method="post" enctype="multipart/form-data">
+	<input type="file" name="fileToUpload" id="fileToUpload">
+	<input type="submit" value="Upload Image" name="submit" class="btn"><br>
+	<button type="submit" class="registerbtn">Register</button><br>
+	
+	</form>
+</body>
+  </div>
+</div>
+</form>
+
+<div class="footer">
+	<p>Footer</p>
+</div>
+</body>
+</html>
